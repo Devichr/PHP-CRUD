@@ -1,0 +1,74 @@
+*{
+    transition: all ease-in-out 0.3s;
+}
+.btn{
+    padding: 6px;
+    margin: 3px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 3px;
+
+}
+.btn-red{
+    background-color: red;
+}
+.btn-yellow{
+    background-color: yellow;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+    .table-wrap{
+        display: flex;
+    }
+    .table-wrap table{
+        width: 98vw;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    .table-wrap table th, .table-wrap table td{
+        border-bottom: 1px solid grey;
+        height: 8vh;
+    }
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+    form.form-master {
+    margin: 5px;
+    width: 80vh;
+    height: 80vh;
+    border: 1px solid gray;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+}
+
+.wrap-form {
+    display: flex;
+    box-shadow: 0px 0px 20px 4px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-master input {
+    width: 80%;
+    height: 5vh;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.form-master input:focus {
+    box-shadow: 0px 0px 4px 2px blue;
+}
+
+input[type="submit"] 
+{width: 20%;margin: 0;
+}
